@@ -42,10 +42,10 @@ github "dnsmasq",     "1.0.1"
 github "foreman",     "1.2.0"
 github "gcc",         "2.0.101"
 github "git",         "2.4.0"
-github "go",          "1.1.0"
+github "go",          "2.0.1"
 github "homebrew",    "1.9.3"
 github "hub",         "1.3.0"
-github "inifile",     "1.0.3", :repo => "puppetlabs/puppetlabs-inifile"
+github "inifile",     "1.1.0", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",       "1.4.3"
 github "nodejs",      "3.7.0"
 github "openssl",     "1.0.0"
@@ -53,9 +53,31 @@ github "phantomjs",   "2.3.0"
 github "pkgconfig",   "1.0.0"
 github "repository",  "2.3.0"
 github "ruby",        "8.1.1"
-github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
+github "stdlib",      "4.2.2", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+# PostgreSQL & Deps
+github "sysctl",      "1.0.1"
+# github "postgresql",  "3.0.1"
+
+# # Heroku
+# github "foreman",     "1.2.0"
+# github "heroku",      "2.1.1"
+
+# # PHP Projects
+# github "wget",        "1.0.1"
+# github "autoconf",    "1.0.0"
+# github "libtool",     "1.0.0"
+# github "pkgconfig",   "1.0.0"
+# github "pcre",        "1.0.0"
+# github "libpng",      "1.0.0"
+# github "imagemagick", "1.2.1"
+
+# # DB
+# github "memcached",   "2.0.0"
+# github "mongodb",     "2.6.1"
+# github "redis",       "3.0.3"
