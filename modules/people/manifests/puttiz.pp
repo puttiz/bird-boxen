@@ -13,6 +13,7 @@ class people::puttiz {
       'wget',
       'vcprompt',
       'imagemagick',
+      'phantomjs',
       'bash-completion',
       'postgresql',
       'heroku',
@@ -22,6 +23,7 @@ class people::puttiz {
       'memcached',
       'mongodb',
       'redis',
+      'chgems',
       'watch'
     ]:
     ensure => present,
